@@ -10,34 +10,22 @@
     <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
 
     <header id='header'>
-      <img src='logo.png' alt='logo' id='header-img' width='80px' height='80px'>
-      <nav id='nav-bar'>
-        <li>
-          <ul>
-            <a href='#product' id='nav-link'>Product</a>
-          </ul>
-          <ul>
-            <a href='#shop' id='nav-link'>Shop</a>
-          </ul>
-          <ul>
-            <a href='#contact' id='nav-link'>Contact</a>
-          </ul>
-        </li>
-      </nav>
+      <img src='https://logos-download.com/wp-content/uploads/2016/06/Playstation_logo_black.png' alt='logo' id='header-img' width='80px' height='80px'>
+      <nav id='nav-bar'> <li> <ul> <a href='#video' class='nav-link'>Product</a> </ul> <ul> <a href='#form' class='nav-link'>Shop</a> </ul> <ul> <a href='#header' class='nav-link'>Contact</a> </ul> </li> </nav> 
     </header>
 
     <main>
-      <div id='video'>
-        <iframe width='560' height='315' src='https://www.youtube.com/embed/KTS2wDaJ3cQ' title='YouTube video player'
+      <div id="frame" >
+        <iframe id="video" width='560' height='315' src='https://www.youtube.com/embed/KTS2wDaJ3cQ' title='YouTube video player'
           frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
           allowfullscreen></iframe>
       </div>
 
       <div>
-        <form id='form'>
-          <input type='email' id='email' placeholder='Enter Email Address'>
-
-        </form>
+        <form id='form' method="POST" action="https://www.freecodecamp.com/email-submit">
+          <input name="email" type='email' id='email' placeholder='Enter Email Address'>
+           <input  id="submit" type="submit" onClick="submit">
+          </form >
         </div>
         </main>
         <script src='js/index.js'></script>
