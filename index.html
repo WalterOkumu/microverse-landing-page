@@ -1,26 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
   <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset='UTF-8'>
+    <title>Microverse Product Landing Page</title>
+    <link rel='stylesheet' href='css/style.css'>
   </head>
 
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
 
-    <!--
+    <header id='header'>
+      <img src='logo.png' alt='logo' id='header-img' width='80px' height='80px'>
+      <nav id='nav-bar'>
+        <li>
+          <ul>
+            <a href='#product' id='nav-link'>Product</a>
+          </ul>
+          <ul>
+            <a href='#shop' id='nav-link'>Shop</a>
+          </ul>
+          <ul>
+            <a href='#contact' id='nav-link'>Contact</a>
+          </ul>
+        </li>
+      </nav>
+    </header>
 
-    Hello Camper!
+    <main>
+      <div id='video'>
+        <iframe width='560' height='315' src='https://www.youtube.com/embed/KTS2wDaJ3cQ' title='YouTube video player'
+          frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+          allowfullscreen></iframe>
+      </div>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
+      <div>
+        <form id='form'>
+          <input type='email' id='email' placeholder='Enter Email Address'>
 
-    - The freeCodeCamp Team
-
-    -->
-    <script  src="js/index.js"></script>
+        </form>
+        </div>
+        </main>
+        <script src='js/index.js'></script>
   </body>
 </html>
